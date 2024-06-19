@@ -1,0 +1,15 @@
+.icono-IA {
+    width: 30px; /* Ajusta el tamaño del icono */
+    height: auto;
+    margin-right: 1px; /* Espacio entre el icono y el texto */
+}
+
+#banner{
+    width: 100%; 
+    height: 100%;
+}
+
+#docente{
+    width: 100%; 
+    height: 100%;
+}

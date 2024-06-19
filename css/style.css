@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.icon-menu {
+    display: none;
+}
+
+#menu-bar {
+    display: none;
+}
+#bienvenidos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
