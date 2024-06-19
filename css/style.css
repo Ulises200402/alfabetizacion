@@ -15,7 +15,7 @@ header {
     padding: 10px 0;
 }
 
-.contenedor {
+.contenedor1 {
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: rgb(85, 85, 85);
 }
 
 .icon-menu {
@@ -53,5 +53,32 @@ nav a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
+}
+
+#titulobienvenidos{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#blog h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contenedor2{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tituloimagenes{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

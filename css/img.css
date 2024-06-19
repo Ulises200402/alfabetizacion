@@ -1,7 +1,7 @@
 .icono-IA {
-    width: 30px; /* Ajusta el tamaño del icono */
+    width: 30px; 
     height: auto;
-    margin-right: 1px; /* Espacio entre el icono y el texto */
+    margin-right: 1px; 
 }
 
 #banner{
@@ -12,4 +12,13 @@
 #docente{
     width: 100%; 
     height: 100%;
+}
+
+.contenedor2 img{
+    width: 300px; 
+    height: 200px;
+    margin-right: 10px; 
+    border-radius: 50%;
+    border-style: groove;
+    border-color: gray;
 }
