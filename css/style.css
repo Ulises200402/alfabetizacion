@@ -46,6 +46,11 @@ nav a:hover {
     display: none;
 }
 
+#logo{
+    text-decoration: none;
+    color: white;
+}
+
 #menu-bar {
     display: none;
 }
@@ -62,6 +67,20 @@ nav a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#somos{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#titulosomos{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #blog h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
@@ -69,6 +88,8 @@ nav a:hover {
 }
 
 .contenedor2{
+    text-decoration: none;
+    color: black;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -82,3 +103,119 @@ nav a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.Docentes{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Docentes h1{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Docentes h3{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#docentes1{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Docentes p{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.alumnos{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.alumnos h1{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alumnos h3{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#alumnos1{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.alumnos p{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.Instituciones{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Instituciones h1{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Instituciones h3{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#instituciones1{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Instituciones p{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#instituciones2{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#links{
+    text-decoration: none;
+    color: blue;
+}
