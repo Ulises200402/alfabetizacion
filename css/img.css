@@ -7,18 +7,28 @@
 #imagenbanner{
     width: 100%; 
     height: 100%;
+    overflow: hidden;
 }
 
 .centrado{
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 15%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: left;
 }
 
-#docente{
+.centradoalumno{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: rgb(99, 109, 119);
+    text-align: left;
+}
+
+#bannerdocente{
     width: 100%; 
     height: 100%;
 }
@@ -31,6 +41,16 @@
     border-style: groove;
     border-color: gray;
     margin: 40px;
+    animation-name: letras2;
+    animation-duration: 1.5s;
+}
+
+@keyframes letras2 {
+    0% {opacity: 0%;}
+    25% {opacity: 25%;}
+    50% {opacity: 50%;}
+    75% {opacity: 75%;}
+    100% {opacity: 100;}
 }
 
 #banneralumno{

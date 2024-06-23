@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .Docentes{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
@@ -132,14 +132,14 @@ nav a:hover {
 }
 
 .Docentes p{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: left;
 }
 
 .alumnos{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
@@ -167,14 +167,14 @@ nav a:hover {
 }
 
 .alumnos p{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: left;
 }
 
 .Instituciones{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 .Instituciones p{
-    margin: 30px;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: left;
@@ -218,6 +218,17 @@ nav a:hover {
 #links{
     text-decoration: none;
     color: blue;
+}
+
+.centradoalumno h2{
+    font-size: 40px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.centradoalumno p {
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .centrado h2{
@@ -238,7 +249,20 @@ nav a:hover {
     }
   
     to {
-      margin-left: 0%;
+      margin-left: 15%;
       width: 100%;
     }
   }
+  
+.contenedor1{
+    animation-name: letras;
+    animation-duration: 1.5s;
+}
+
+@keyframes letras {
+    0% {opacity: 0%;}
+    25% {opacity: 25%;}
+    50% {opacity: 50%;}
+    75% {opacity: 75%;}
+    100% {opacity: 100;}
+}
