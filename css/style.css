@@ -103,21 +103,21 @@ nav a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Docentes{
+.Texto{
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
 }
 
-.Docentes h1{
+.Texto h1{
     font-size: 40px;
     line-height: 1.6;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Docentes h3{
+.Texto h3{
     margin: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
@@ -131,29 +131,8 @@ nav a:hover {
     text-align: center;
 }
 
-.Docentes p{
+.Texto p{
     margin: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: left;
-}
-
-.alumnos{
-    margin: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.alumnos h1{
-    font-size: 40px;
-    line-height: 1.6;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.alumnos h3{
-    margin: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: left;
@@ -166,46 +145,11 @@ nav a:hover {
     text-align: center;
 }
 
-.alumnos p{
-    margin: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: left;
-}
-
-.Instituciones{
-    margin: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.Instituciones h1{
-    font-size: 40px;
-    line-height: 1.6;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.Instituciones h3{
-    margin: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: left;
-}
-
 #instituciones1{
     margin: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
-}
-
-.Instituciones p{
-    margin: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.6;
-    text-align: left;
 }
 
 #instituciones2{
@@ -223,26 +167,31 @@ nav a:hover {
 .centradoalumno h2{
     font-size: 40px;
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: Deslizamiento;
 }
 
 .centradoalumno p {
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: Deslizamiento;
 }
 
 .centrado h2{
     font-size: 40px;
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: Deslizamiento;
 }
 
 .centrado p {
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: Deslizamiento;
   }
   
-  @keyframes slidein {
+  @keyframes Deslizamiento {
+
+    0% {opacity: 0%;}
+    25% {opacity: 50%;}
+    50% {opacity: 100%;}
+
     from {
       margin-left: 100%;
       width: 300%;
