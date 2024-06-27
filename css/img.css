@@ -76,6 +76,8 @@
     margin-right: 1px; 
     text-align: right;
     float: right;
+    border-color: gray;
+    border-style: groove;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation-name: letras2;
 }
